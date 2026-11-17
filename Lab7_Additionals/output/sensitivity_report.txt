@@ -1,0 +1,17 @@
+SECOM STATISTICAL ROBUSTNESS AND SENSITIVITY ANALYSIS
+Student: Magalong
+Student ID: TUPM-26-1134
+Random Seed: 261134
+Verification Value: 140
+Selected Features: Feature_524, Feature_215, Feature_287, Feature_029, Feature_346
+Bootstrap Repetitions: 240
+Largest Change in Mean Difference: Feature_346 (0.5355)
+Features with Changed Difference Sign: Feature_346
+Features with Changed Ranking: None
+Reproducibility Verified: True
+
+Interpretation Notes:
+- Available-case and median-imputed results can differ because imputation pulls missing values toward the full-dataset median.
+- A confidence interval containing zero means the observed Fail-Pass difference is not stable under resampling.
+- Rankings use raw mean differences, so features with larger measurement scales can rank higher.
+- Group differences do not establish failure causes.
